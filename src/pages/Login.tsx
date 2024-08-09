@@ -25,7 +25,7 @@ const Login = () => {
                         {/* <Link  to="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:3000/desktop" className='text-sm text-gray-400 cursor-pointer'> Sign Up with Google </Link> */}
                     </div>
                     <p className='w-[195px] h-12 bg-[#4B63DD] rounded m-auto text-center pt-2.5 mb-6 cursor-pointer'><Link to="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-frontend.netlify.app/desktop">Create an account</Link></p>
-                    <p className='text-base text-gray-500'>Already have an account? <span>Sign In</span></p>
+                    <p className='text-base text-gray-500'>Already have an account? <span><Link to="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-frontend.netlify.app/desktop">Sign In</Link></span></p>
                 </div>
 
             </div>
