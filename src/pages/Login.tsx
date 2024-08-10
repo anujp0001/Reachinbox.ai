@@ -37,7 +37,7 @@ const Login = () => {
               <Link to="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-frontend.netlify.app/desktop" className='text-sm text-gray-400 cursor-pointer'>Sign Up with Google</Link>
             </div>
             <p className='w-[195px] h-12 bg-[#4B63DD] rounded m-auto text-center pt-2.5 mb-6 cursor-pointer' onClick={handleCreateAccount}><Link to='/signup'>Create an account</Link></p>
-            <p className='text-base text-gray-500'>Already have an account? <span className='cursor-pointer text-blue-400' onClick={handleSignIn}>Sign In</span></p>
+            <p className='text-base text-gray-500'>Already have an account? <span className='cursor-pointer text-blue-400' onClick={handleSignIn}><Link to='/signin' >Sign In</Link></span></p>
           </div>
         </div>
       </div>
